@@ -1,0 +1,13 @@
+question 4:
+
+c: 13245 
+
+first static block call first 
+second default block then constructor.
+
+question 5:
+
+a: 2
+we only call Math class attributes.
+ans will be 2 
+
