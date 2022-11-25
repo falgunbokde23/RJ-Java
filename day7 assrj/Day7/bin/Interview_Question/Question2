@@ -1,0 +1,9 @@
+
+Ques 2: Can you serialize an object of subclass if superclass does not implement serializable
+
+Ans:-
+
+	Even though the superclass doesn’t implement a Serializable interface, we can serialize subclass objects
+	 if the subclass itself implements a Serializable interface. So we can say that to serialize subclass
+	  objects, superclass need not be serializable. But what happens with the instances of superclass during 
+	  serialization in this case. The following procedure explains this.

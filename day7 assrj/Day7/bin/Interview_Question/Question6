@@ -1,0 +1,6 @@
+Ques 6: Can we write try block without catch and finally
+
+Ans:-
+ Yes, It is possible to have a try block without a catch block by using a final block. As we know, a
+ final block will always execute even there is an exception occurred in a try block, except System.
+  exit() it will execute always.

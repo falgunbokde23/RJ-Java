@@ -1,0 +1,12 @@
+Ques 9: What happens when method returns something from try block, will finally be
+executed in that case?
+
+Ans:-
+
+	-Yes, the finally block will be executed even after a return statement in a method. 
+	 The finally block will always execute even an exception occurred or not in Java. 
+	 
+ 
+  -If we call the System. exit() method explicitly in the finally block then only it will not be executed. 
+  There are few situations where the finally will not be executed like JVM crash, power failure, software
+   crash and etc. Other than  these conditions, the finally block will be always executed.

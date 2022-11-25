@@ -1,0 +1,9 @@
+Ques 10: Name some important Checked Exceptions you have used in your implementations
+
+Ans:-
+
+ Checked exceptions are the subclass of the Exception class. These types of exceptions need to be handled
+ during the compile time of the program. These exceptions can be handled by the try-catch block or by 
+ using throws keyword otherwise the program will give a compilation error.
+
+ ClassNotFoundException, IOException, SQLException etc are the examples of the checked exceptions.

@@ -1,0 +1,14 @@
+Ques 5: Why serialVersionUID is important in class definitions. When it becomes
+important to define in objects. What is JVM behavior in case you do not define
+serialVersionUID for your object
+
+
+Ans:-
+
+ - Suppose a person who is in the UK and another person who is in India, are going to perform serialization
+	 and deserialization respectively. In this case, to authenticate that the receiver who is in India is the 
+	 authenticated person, JVM creates a unique ID which is known as SerialVersionUID.
+ 
+ - Serialization at the time of serialization, with every object sender side JVM will save a Unique
+	  Identifier. JVM is responsible to generate that unique ID based on the corresponding .class file which 
+	  is present in the sender system.

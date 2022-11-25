@@ -1,0 +1,6 @@
+Ques 8: How to create user defined unchecked exceptions in java
+
+Ans:-
+
+We can create the custom unchecked exception by extending the RuntimeException in Java. Unchecked 
+exceptions inherit from the Error class or the RuntimeException class.

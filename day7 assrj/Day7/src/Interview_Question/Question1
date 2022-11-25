@@ -1,0 +1,20 @@
+Ques 1: What is serialization? When we use it try to explain with any real use-case
+
+Ans:-
+
+Serialization:-
+
+	Serialization is the process of converting an object into a stream of bytes to store the object or 
+	transmit it to memory, a database, or a file. Its main purpose is to save the state of an object in order
+	 to be able to recreate it when needed. The reverse process is called deserialization.
+	   
+   
+   Real time example:-
+   
+   You can take any example as realtime such as that you are going to visit your home after 20 yrs and 
+   you want the same things,same arrangements and many more things which you left 20 yrs ago in same 
+   condition as where u left.. then it is serialization. it means you saved the state of things which 
+   make them serialize. 
+
+    
+    

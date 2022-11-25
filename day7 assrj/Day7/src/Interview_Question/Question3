@@ -1,0 +1,7 @@
+Ques 3: Can you prevent serializing a subclass object when super type is serializable
+
+Ans:-
+
+If the superclass is Serializable, then by default, every subclass is serializable. Hence, 
+even though subclass doesn’t implement Serializable interface( and if its superclass implements
+ Serializable), then we can serialize subclass object. 

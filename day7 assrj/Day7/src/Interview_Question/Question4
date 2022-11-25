@@ -1,0 +1,10 @@
+Ques 4: What is the user of transient keyword in Java explain with use-case
+
+Ans:-
+
+transient keyword:-
+
+transient is a variables modifier used in serialization. At the time of serialization, if we don't want
+ to save value of a particular variable in a file, then we use transient keyword. When JVM comes across 
+ transient keyword, it ignores original value of the variable and save default value of that variable 
+ data type
