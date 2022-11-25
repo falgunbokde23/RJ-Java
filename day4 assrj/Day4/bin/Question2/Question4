@@ -1,0 +1,24 @@
+Ques 4: Difference between Iterator and ListIterator
+
+Ans:-
+
+ Iterator:-
+ 
+- Can traverse elements present in Collection only in the forward direction.
+- Helps to traverse Map, List and Set.
+- Indexes cannot be obtained by using Iterator.
+- Cannot modify or replace elements present in Collection
+- Cannot add elements and it throws ConcurrentModificationException.
+- Certain methods of Iterator are next(), remove() and hasNext().
+
+
+
+ListIterator:-
+-Can traverse elements present in Collection both in forward and backward directions.
+-Can only traverse List and not the other two.
+-It has methods like nextIndex() and previousIndex() to obtain indexes of elements at any 
+  time while traversing List.
+ -We can modify or replace elements with the help of set(E e).
+ -Can easily add elements to a collection at any time.
+ -Certain methods of ListIterator are next(), previous(), hasNext(), hasPrevious(), 
+  add(E e).

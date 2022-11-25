@@ -1,0 +1,84 @@
+Ques 1: How to convert a Array into ArrayList and vice-versa? Write example code
+snippet
+
+Array into arrayList:-
+
+Java provides five methods to convert Array into a List are as follows:
+
+1)Native Method
+2)Using Arrays.asList() Method
+3)Using Collections.addAll() Method
+4)Using Java 8 Stream API
+5)Using Guava Lists.newArrayList() Method
+
+Example:-    ArrayToListExample.java
+
+		import java.util.*;   
+		import java.util.stream.Collectors;  
+		public class ArrayToListExample4  
+		{   
+		//creating a generic function that converts the Array into List  
+		public static <T> List<T> ArrayToListConversion(T arr[])   
+		{   
+		//creates a list from the specified Array and returns the List  
+		return Arrays.stream(arr).collect(Collectors.toList());   
+		}   
+		public static void main(String args[])   
+		{   
+		//creating an array to be converted into List  
+		String arr[] = { "Python", "HTM", "Java", "C", "C++", "JavaScript", "Ruby", "Swift", "PHP" };   
+		//prints the Array before conversion  
+		System.out.println("Array: "+ Arrays.toString(arr));   
+		//calling the method created above and storing the elements into the List object  
+		List<String> list = ArrayToListConversion(arr);   
+		//prints the List   
+		System.out.println("List: " + list);   
+		}   
+		}   
+
+		
+		
+ArrayList to Array:- 
+
+In Java, we mainly have three ways to convert a List into an array which are as follows:
+
+1) Using get() method of List
+2) Using toArray() method
+3) Using Stream in Java 8
+		
+		Example:-
+		
+		ConvertListToArrayExample1.java
+
+		import java.io.*;  
+		import java.util.LinkedList;  
+		import java.util.List;  
+		// create ConvertListToArrayExample1 class to convert a list into an array  
+		class ConvertListToArrayExample1 {  
+		    // main() method start  
+		    public static void main(String[] args)  
+		    {  
+		         // create linked list by declaring an object of List  
+		         List<String> names = new LinkedList<String>();  
+		         // use add() method of the list to add elements in the linked list  
+		         names.add("Paul");  
+		         names.add("Donal");  
+		         names.add("James");  
+		         names.add("Robert");  
+		         names.add("Mery");  
+		         // get size of list and store it into len variable  
+		         int len = names.size();  
+		         // declare and initialize array of type string to store list elements  
+		         String[] namesArray = new String[ len ];  
+		         // iterate list using for loop and add all the elements into namesArray one by one to convert names list into an array  
+		         for (int i = 0; i < len; i++)  
+		             namesArray[i] = names.get(i);  
+		         // print all the elements of the array  
+		         System.out.println("After converting List into an Array");  
+		         for (int j = 0; j < namesArray.length; j++) {  
+		             System.out.println((j+1)+" element of the array is "+namesArray[j]);  
+		         }  
+		    }   
+		}  
+				
+				

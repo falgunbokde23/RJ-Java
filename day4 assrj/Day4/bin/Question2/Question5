@@ -1,0 +1,24 @@
+Ques 5: Explain the real situation use of HashMap, HashSet and LinkedList collections
+
+Ans:-
+
+
+HashMap:-
+
+Hashmaps are probably the most commonly used implementation of the concept of a map. They 
+allow arbitrary objects to be associated with other arbitrary objects. This can be very 
+useful for doing things like grouping or joining data together by some common attribute.
+
+HashSet:- 
+
+A Java HashSet class represents a set of elements (objects). It does not guarantee the
+ order of elements. It constructs a collection that uses a hash table for storing elements.
+  It contains unique elements. It inherits the AbstractSet class. It also implements the 
+  Set interface. It uses a technique to store elements is called hashing. HashSet uses
+   HashMap internally in Java.
+   
+   
+ LinkedList	:-
+ 
+ Previous and next page in a web browser – We can access the previous and next URL searched in a web browser by pressing the back and next buttons since they are linked as a linked list.
+ Music Player – Songs in the music player are linked to the previous and next songs.

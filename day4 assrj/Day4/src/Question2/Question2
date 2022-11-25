@@ -1,0 +1,9 @@
+Ques 2: Why collections are used in java if everything can be implemented using Array?
+
+Ans:-
+
+
+The Java Collections Framework provides the following benefits: Reduces programming effort:
+ By providing useful data structures and algorithms, the Collections Framework frees you to
+ concentrate on the important parts of your program rather than on the low-level "plumbing"
+  required to make it work.
