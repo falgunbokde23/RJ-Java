@@ -1,0 +1,26 @@
+package com.masai;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.masai.prob.Circle;
+import com.masai.prob.Rectangle;
+
+@SpringBootApplication
+public class Problem3Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context=SpringApplication.run(Problem3Application.class, args);
+		
+		
+		Circle sh=context.getBean(Circle.class);
+		
+		sh.draw();
+		
+		Rectangle r =context.getBean(Rectangle.class);
+		int ans =r.calculateArea(12, 10);
+		System.out.println(ans);
+	}
+
+}

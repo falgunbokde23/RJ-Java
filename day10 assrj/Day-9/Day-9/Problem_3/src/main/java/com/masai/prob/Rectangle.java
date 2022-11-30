@@ -1,0 +1,39 @@
+package com.masai.prob;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Rectangle  {
+
+	
+	
+	public int calculateArea(int length,int width) {
+
+		return  length*width;
+
+	}
+
+	public int calculatePerimeter(int length,int width) {
+
+		return  2 *(length*width);
+
+	}
+
+	public void draw() {
+		System.out.println("Rectangle have drawn...!");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

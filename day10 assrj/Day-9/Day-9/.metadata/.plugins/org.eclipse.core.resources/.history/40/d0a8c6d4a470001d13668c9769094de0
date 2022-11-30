@@ -1,0 +1,29 @@
+package com.masai.prob;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AppRunner {
+
+	@Autowired
+	private  Circle s;
+	
+
+	public  void run () {
+		
+     s.draw();
+
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

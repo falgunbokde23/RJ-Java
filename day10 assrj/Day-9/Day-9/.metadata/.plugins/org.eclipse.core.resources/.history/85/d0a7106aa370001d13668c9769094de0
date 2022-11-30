@@ -1,0 +1,42 @@
+package com.masai.prob;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AppRunner {
+
+	@Autowired
+	private  Circle s;
+	
+
+	public  void run () {
+		
+     s.draw();
+//	   
+//	   
+//	  System.out.println(((Circle) shape).calculateArea(10));
+//	 
+//		
+//	   Shape shape1 = new Rectangle();
+//		
+//		((Rectangle)shape1).draw();
+//		
+//		
+//		System.out.println(((Rectangle)shape1).calculatePerimeter(12, 10));
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

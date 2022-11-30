@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Rectangle"/>
+    <fullyQualifiedTypeName name="com.masai.Shape"/>
+    <fullyQualifiedTypeName name="com.masai.Rectangle"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.masai.prob.Shape"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="com.masai.prob.Circle"/>
+    <fullyQualifiedTypeName name="com.masai.prob.Rectangle"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.masai.prob.AppRunner"/>
+</qualifiedTypeNameHistroy>
