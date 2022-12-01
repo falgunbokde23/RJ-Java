@@ -1,0 +1,12 @@
+5. How to run spring boot application on customized
+port number (other than default 8080)--
+
+Answer--
+
+We can change the port of the Spring Boot in the following ways:
+
+1. By Adding the configuration in the application properties of the Spring Boot project
+
+2. By Implementing the WebServerFactoryCustomizer interface in the component class
+
+3. Changing the configuration of VM options

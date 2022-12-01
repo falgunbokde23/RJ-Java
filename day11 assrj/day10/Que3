@@ -1,0 +1,11 @@
+Que -- Try to compare Spring vs Spring-Web vs SpringBoot
+
+Answer ---
+Spring	                                                          Spring Boot
+Widely used for building enterprise Java applications	      Widely used for building REST APIs
+Aims to simplify enterprise Java development	              Aims to shorten code length and easily build web applications
+Allows building loosely coupled applications	              Allows building standalone applications
+Main feature is dependency injection	                      Main feature is auto-configuration
+Involves writing lots of boilerplate code	                  Reduces boilerplate code
+Needs dependencies to be defined manually	                  Starters take care of dependencies
+Involves setting up server manually	                          Includes embedded server like Tomcat and Jetty
