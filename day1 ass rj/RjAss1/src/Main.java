@@ -11,4 +11,5 @@ public class Main {
 		((Cat) animal).jump();
 		((Dog)animal1).play();
 	}
+	
 }
