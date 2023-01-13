@@ -12,6 +12,7 @@ public class Cat extends Animal {
 		super();
 		this.nickName = nickName;
 	}
+	
 
 	
 	public String getNickName() {
